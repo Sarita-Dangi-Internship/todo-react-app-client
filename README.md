@@ -2,7 +2,7 @@
 
 ## Clone this repository.
 ```bash
-$ git clone https://github.com/Sarita-Dangi-Internship/todo-react-app-with-json-server.git
+$ git clone https://github.com/Sarita-Dangi-Internship/todo-react-app-client.git
 ```
 ## Install dependencies.
 Make sure you already have `nodejs`, `npm` or `yarn` installed in your system.
