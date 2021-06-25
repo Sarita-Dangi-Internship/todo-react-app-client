@@ -120,7 +120,7 @@ export default class App extends Component {
    */
   toggleTaskCompleted = (id) => {
     const updatedItems = this.state.items.map((item) => {
-      if (id === item.id) {
+      if (id === item._id) {
         return { ...item, completed: !item.completed };
       }
       return item;
