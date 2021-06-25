@@ -29,6 +29,9 @@ export default class CheckListItem extends Component {
     const { task, createdDate, completed, _id } = this.props.item;
     const { handleOnDelete, toggleTaskCompleted } = this.props;
     const { isEditMode } = this.state;
+
+    const handledateFormat = (time) => new Date(time).toDateString();
+
     return (
       <>
         <div className="checklist-row">
@@ -68,7 +71,7 @@ export default class CheckListItem extends Component {
                   <i className="fas fa-info-circle tooltip">
                     <span className="tooltiptext">Created date</span>
                   </i>
-                  {createdDate || "28 Jun 2020"}
+                  {handledateFormat(createdDate) || "May 8 2020"}
                 </div>
               </div>
             </>
