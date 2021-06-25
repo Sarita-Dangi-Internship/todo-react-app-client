@@ -20,7 +20,6 @@ export default class AddNewInput extends Component {
           />
           <span className="todo__calendar">
             <Calendar handleDate={this.props.handleDate} />
-            <i className="far fa-calendar-alt"></i>
           </span>
           <button id="add" type="submit">
             Add

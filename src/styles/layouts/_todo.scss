@@ -265,3 +265,13 @@ $green: #338d33;
     visibility: visible;
   }
 }
+
+/*************
+* datepicker *
+**************/
+
+.react-datepicker__input-container input{
+  background:  url(./icons8-calendar-24.png) no-repeat right ;
+  padding: 10px;
+  margin-right: 5px;
+}
